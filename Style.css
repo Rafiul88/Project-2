@@ -320,6 +320,56 @@ body {
 
 }
 
+/* hero section part*/
+
+.hero {
+  background-image: url('news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 180px 200px 200px;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.hero h1 {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.email-subscribe {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 4px;
+}
+
+.email-subscribe input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  font-size: 1rem;
+}
+
+.email-subscribe button {
+  background-color: #f15b22;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.email-subscribe button:hover {
+  background-color: #d94d1b;
+}
+
+
 
 
 
