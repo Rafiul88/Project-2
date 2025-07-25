@@ -428,6 +428,180 @@ body {
 }
 
 
+/* Media screen query */
+
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .hero {
+  padding: 100px 20px 120px;
+}
+
+
+  .footer-content {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 576px) {
+ 
+  .nav-links {
+    display: none;
+  }
+
+  .navbar-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-right {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .cart img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .cart span {
+    font-size: 16px;
+  }
+
+  .fresh-flowers-container, .flower-container {
+    flex-direction: column-reverse;
+    text-align: left;
+    padding: 20px;
+  }
+  .text-content, .image-content {
+    text-align: left;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .card {
+    width: 100%;
+  }
+.flower-container {
+  flex-direction: column;
+  padding: 20px;
+}
+.left {
+  order: 1; 
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.left img.main {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+.left img.badge {
+  display: none; 
+}
+.right {
+  order: 2;
+  padding: 20px 0;
+  text-align: left;
+}
+.right h1 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+}
+
+
+.right ul {
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+  .hero {
+    padding: 80px 20px 100px;
+    background-position: center;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    margin-bottom: 20px;
+  }
+
+
+  .hero-content {
+    padding: 0 10px;
+  }
+
+  .email-subscribe {
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    gap: 0;
+    box-shadow: none;
+  }
+  .email-subscribe input {
+    flex: 1;
+    width: auto;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 6px 0 0 6px;
+  }
+  .email-subscribe button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 0 6px 6px 0;
+  }
+
+
+
+.footer-content {
+  flex-direction: column;
+  align-items: flex-start;      
+  text-align: left;
+  gap: 30px;
+  padding: 0 20px;             
+}
+
+.footer-left {
+  width: 100%;
+  text-align: left;
+}
+
+.footer-left img.logo {
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  margin-top: 5px;
+}
+
+.footer-links {
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+
+.footer-icons {
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 10px;
+}
+}
+
 
 
 
