@@ -62,3 +62,53 @@ body {
   width: 18px;
   height: 18px;
 }
+
+/* flower section part here*/
+
+
+.fresh-flowers-section {
+
+  padding: 60px 20px;
+}
+
+.fresh-flowers-container, .flower-container {
+  max-width: 1100px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
+.text-content {
+  min-width: 300px;
+}
+.text-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.black-text {
+  color: #000;
+}
+.orange-text {
+  color: #f15b22;
+}
+.text-content p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.image-content {
+  flex: 1;
+  text-align: right;
+  min-width: 300px;
+}
+.image-content img {
+  max-width: 100%;
+  height: auto;
+}
